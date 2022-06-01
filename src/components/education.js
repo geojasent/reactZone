@@ -5,15 +5,15 @@ class Education extends Component {
         return <section>
             <div>
                 School Name:
-                <input></input>
+                <input className = 'school'></input>
             </div>
             <div>
-                Title of Study:
-                <input></input>
+                Major
+                <input className = 'major'></input>
             </div>
             <div>
-                Year of Study:
-                <input></input>
+                Degree:
+                <input className= 'degree'></input>
             </div>
         </section>
     }
